@@ -28,17 +28,17 @@ a {
 }
 
 .logo {
-    margin-left: 200px;
     font-size: 20px;
     font-weight: bold;
+    margin-left: 15%;
 }
 
 .links {
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-right: 200px;
     font-size: 14px;
+    margin-right: 15%;
 }
 
 /* SECTION 1 */
@@ -49,28 +49,33 @@ a {
     display: flex;
     justify-content: flex-end;
     gap: 50px;
-    height: 400px;
     align-items: center;
 }
 
 .left-content {
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
     justify-content: center;
     gap: 10px;
     flex: 1;
     height: 225px;
+    margin: 100px 0 100px 15%;
+    flex-shrink: 1;
 }
 
 .placeholder-image {
-    margin-right: 200px;
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #555555;
     height: 225px;
+    margin: 100px 15% 100px 0;
+}
+
+.pi-text {
+    font-size: 14px;
+    margin: 0 10%;
 }
 
 .left-content .title {
@@ -82,7 +87,7 @@ a {
     background-color: #3882F6;
     border: none;
     border-radius: 5px;
-    padding: 5px 25px;
+    padding: 8px 25px;
     color: white;
     margin-top: 10px;
     font-weight: bold;
@@ -109,7 +114,8 @@ a {
     flex-direction: row;
     justify-content: center;
     gap: 50px;
-    margin-bottom: 100px;
+    flex-wrap: wrap;
+    margin: 0 10% 100px
 }
 
 .img-text-block {
@@ -135,18 +141,18 @@ a {
 
 .sec-three {
     display: flex;
-    height: 400px;
     background-color: #E5E7EB;
     align-items: center;
     justify-content: center;
 }
 
 .blockquote {
-    width: 640px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     gap: 10px;
+    width: 650px;
+    margin: 100px 20% 100px;
 }
 
 .quote {
@@ -177,8 +183,11 @@ a {
     background-color: #3882F6;
     color: white;
     border-radius: 10px;
-    height: 135px;
     width: 1035px;
+    height: 135px;
+    margin: 0 10%;
+    padding: 5% 10%;
+    gap: 10%;
 }
 
 .text {
@@ -197,9 +206,10 @@ a {
     background-color: #3882F6;
     border: white 2px solid;
     color: white;
-    padding: 5px 30px;
+    padding: 8px 30px;
     border-radius: 5px;
     font-weight: bold;
+    flex-shrink: 0;
 }
 
 /* FOOTER  */
